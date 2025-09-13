@@ -13,7 +13,7 @@ import java.util.Optional;
 @RequestMapping("/bookings")
 public class BookingController {
 
-
+//@Autowired
     private BookingRepository bookingRepository;
 
     // ✅ Create a booking
