@@ -13,7 +13,7 @@ import java.util.Optional;
 @RequestMapping("/bookings")
 public class BookingController {
 
-    @Autowired
+
     private BookingRepository bookingRepository;
 
     // ✅ Create a booking
@@ -31,7 +31,7 @@ public class BookingController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
-
+//getmapping by list
     @GetMapping()
     public ResponseEntity<List<Booking>> getAllBookings() {
         return ResponseEntity.ok(bookingRepository.findAll());
