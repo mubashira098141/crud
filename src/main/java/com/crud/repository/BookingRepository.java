@@ -6,6 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface BookingRepository extends JpaRepository<Booking, Long> {
-    // no need to redefine findById, JpaRepository already provides it
+  // no need to redefine findById, JpaRepository already provides it
 }
-
