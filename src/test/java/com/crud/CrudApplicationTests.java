@@ -7,5 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class CrudApplicationTests {
 
   @Test
-  void contextLoads() {}
+  void contextLoads() {
+    // Verify that the Spring application context loads successfully
+  }
 }
